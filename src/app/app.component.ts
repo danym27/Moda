@@ -13,7 +13,7 @@ export class AppComponent {
     this.ruta_foto = './assets/foto_perfil_git.png';
   }
 
-  public cambio_imagen($event) {
+  public cambio_imagen($event): void {
     if ($event.target.id === 'yellow') {
       this.ruta_foto = './assets/foto_perfil_git_2.png';
     }
